@@ -2,9 +2,9 @@ body{
   margin: 0;
   padding: 0;
   text-align: center;
-  background: url(/image/contact.jpg);
-  background-size:cover;
-  background-position: center;
+  background: url(../image/contact.jpg);
+  background-size:;
+  background-position:;
   font-family: sans-serif;
 }
 .contact-title{
@@ -33,6 +33,7 @@ form{
   border-bottom: 1px solid gray;
   font-size: 18px;
   margin-bottom: 16px;
+  color: black;
 }
 input{
   height: 45px;

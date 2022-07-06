@@ -5,8 +5,6 @@
   $visitor_email = $_POST['email'];
   $message = $_POST['message'];
 
-  print("hmm kaj kore");
-
   $email_from = "my website";
   $email_subject = "New form submitted";
 
