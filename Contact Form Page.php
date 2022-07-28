@@ -10,7 +10,7 @@
 
 <div class="container mt-5 bg-white p-5">
   <h1>Contact Me!</h1>
-  <form class="row g-3" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
+  <form class="row g-3"  method="post">
     <div class="col-md-6 p-1 bg-dark">
       <label for="FirstName" class="form-label text-white">First Name</label>
       <input type="text" name="f_name" class="form-control" id="FirstName" required>
@@ -32,7 +32,7 @@
       <textarea class="form-control" name="message" id="comment"rows="3"></textarea>
     </div>
     <div class="col-md-12">
-      <button type="submit" class="btn btn-info">Submit</button>
+      <button type="submit" name="submit" class="btn btn-info">Submit</button>
     </div>
 
   </form>
@@ -42,6 +42,7 @@
 
 <?php
 error_reporting(E_ERROR | E_PARSE);
+if (isset($_POST['submit'])) {
   $f_name = $_POST['f_name'];
   $l_name = $_POST['l_name'];
   $visitor_email = $_POST['email'];
@@ -55,7 +56,8 @@ error_reporting(E_ERROR | E_PARSE);
   $to = "190204009@aust.edu";
   $headers = "From: $email_from \r\n";
   $headers .= "Reply-to: $visitor_email \r\n";
-  mail($to, $email_subject, $email_body, $headers); 
+  mail($to, $email_subject, $email_body, $headers);
+}
 
  ?>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
