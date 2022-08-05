@@ -7,6 +7,30 @@
     <link type="text/css" rel="stylesheet" href="/css/mycss.css">
   </head>
   <body>
+    <section>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Aurnab & Hanjala</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="HomePage.php">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Data Listing Page.php">Foods</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Contact Form Page.php">Contact</a>
+        </li>
+
+      </ul>
+    </div>
+  </div>
+</nav>
+    </section>
     <section class="text-center bg-danger">
       <h2>OUR ALL ITEMS</h2>
     </section>
@@ -15,7 +39,7 @@
     <section class="bg-dark p-2">
       <div class="container">
         <div class="row g-4">
-         <div class="col-md-6 col-lg-3">
+         <div class="col-md-4">
            <div class="card bg-light">
              <div class="card-body text-center">
                <img
@@ -33,7 +57,7 @@
                 </div>
            </div>
          </div>
-         <div class="col-md-6 col-lg-3">
+         <div class="col-md-4">
            <div class="card bg-light">
              <div class="card-body text-center">
                <img
@@ -51,7 +75,7 @@
                 </div>
            </div>
          </div>
-         <div class="col-md-6 col-lg-3">
+         <div class="col-md-4">
            <div class="card bg-light">
              <div class="card-body text-center">
                <img
@@ -68,7 +92,7 @@
                 </div>
            </div>
          </div>
-         <div class="col-md-6 col-lg-3">
+         <div class="col-md-4">
            <div class="card bg-light">
              <div class="card-body text-center">
                <img
@@ -85,7 +109,7 @@
                 </div>
            </div>
          </div>
-         <div class="col-md-6 col-lg-3">
+         <div class="col-md-4">
            <div class="card bg-light">
              <div class="card-body text-center">
                <img
@@ -102,7 +126,7 @@
                 </div>
            </div>
          </div>
-         <div class="col-md-6 col-lg-3">
+         <div class="col-md-4">
            <div class="card bg-light">
              <div class="card-body text-center">
                <img
@@ -121,6 +145,41 @@
            </div>
          </div>
        </div>
+       <!-- <div class="col-md-4">
+         <div class="card bg-light">
+           <div class="card-body text-center">
+             <img
+               src="./image/beaf Burger.jpg"
+               class="rounded-circle mb-3" width="100%" height="100%"
+               alt=""
+             />
+             <h3 class="card-title mb-3">BEAF BURGER</h3>
+
+             <p class="text-info"><b>250 taka</b></p>
+               <a href="#" class="btn btn-primary">Order Now</a>
+              </div>
+         </div>
+       </div> -->
+       <!-- <div class="col-md-4">
+         <div class="bg-light">
+           <div class="text-center">
+             <img
+               src="./image/Pepperoni pizza.jpg"
+               class="rounded-circle mb-3" width="100%" height="100%"
+               alt=""
+             />
+             <h3 class="card-title mb-3">PEPPERONI PIZZA</h3>
+             <p>pizza dough</p>
+             <p>pizza sauce</p>
+             <p>pepperoni</p>
+             <p>mozzarella cheese</p>
+             <p>black pepper</p>
+             <p class="text-info"><b>460 taka</b></p>
+               <a href="#" class="btn btn-primary">Order Now</a>
+              </div>
+         </div>
+       </div> -->
+     </div>
       </div>
     </section>
 
